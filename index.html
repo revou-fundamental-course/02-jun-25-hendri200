@@ -1,20 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Website - HendriFirmansya</title>
-    <!--CSS External-->
-    <link rel="stylesheet" href="css\style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hazemaker Studio | Company Website Maker</title>
+	<meta name="description" content="Hazemaker Studio - Jasa pembuatan website profesional untuk bisnis, UMKM, dan personal branding.">
+	<link rel="icon" type="image/png" href="images/hazemaker-favicon.png">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--Header Content-->
-    <header></header>
+	<!-- Header -->
+	<header>
+		<div class="container header-container">
+			<div class="logo">
+				<img src="Images/5cb903cc-48dc-40c9-9a3d-3d271869fb4d.png" alt="Hazemaker Studio Logo" class="logo-img" />
+				<span>Hazemaker Studio</span>
+			</div>
+			<div class="nav-toggle" aria-label="Toggle navigation" tabindex="0">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="#home" class="nav-link">Home</a></li>
+					<li><a href="#about" class="nav-link">About</a></li>
+					<li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+					<li><a href="#services" class="nav-link">Services</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-    <!--Main Content-->
-    <main></main>
-    
-    <!--Footer Content-->
-    <footer></footer>
+	<!-- Welcome Section with Auto Slide Banner -->
+	<section class="welcome" id="home">
+		<div class="container">
+			<h1>Welcome to Hazemaker Studio</h1>
+			<p>Your Partner for Professional & Creative Company Websites</p>
+			<div class="banner-slider">
+				<button class="slider-arrow left" aria-label="Previous">&#10094;</button>
+				<div class="slides">
+					<img src="Images/ChatGPT Image Jun 12, 2025, 07_08_48 PM.png" class="slide active" alt="Portfolio Website Example 1">
+					<img src="Images/company website.png" class="slide" alt="Portfolio Website Example 2">
+					<img src="Images/ChatGPT Image Jun 12, 2025, 07_12_24 PM.png" class="slide" alt="Portfolio Website Example 3">
+				</div>
+				<button class="slider-arrow right" aria-label="Next">&#10095;</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- About Section -->
+	<section class="profile" id="about">
+		<div class="container about-container">
+			<h2>About Hazemaker Studio</h2>
+			<p>Hazemaker Studio adalah digital agency yang berfokus pada pembuatan website company profile, landing page, dan toko online. Kami membantu bisnis dan personal membangun kehadiran digital yang profesional, modern, dan efektif.</p>
+			<div class="visi-misi">
+				<div class="visi">
+					<h3>Visi</h3>
+					<p>Menjadi partner digital terpercaya untuk pertumbuhan bisnis di Indonesia.</p>
+				</div>
+				<div class="misi">
+					<h3>Misi</h3>
+					<ul>
+						<li>Membuat website berkualitas tinggi & mudah digunakan</li>
+						<li>Mendukung UMKM dan startup go digital</li>
+						<li>Memberikan layanan konsultasi & support terbaik</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portfolio Section -->
+	<section class="achievement" id="portfolio">
+		<div class="container">
+			<h2>Portfolio</h2>
+			<div class="cards">
+				<div class="card">
+					<div class="portfolio-img">
+						<img src="Images/company website.png" alt="Company Profile PT. Maju Jaya" />
+					</div>
+					<h3>Company Profile PT. Maju Jaya</h3>
+					<p>Website profesional untuk perusahaan konstruksi nasional.</p>
+				</div>
+				<div class="card">
+					<div class="portfolio-img">
+						<img src="Images/ChatGPT Image Jun 12, 2025, 07_15_41 PM.png" alt="Landing Page UMKM Kopi Kita" />
+					</div>
+					<h3>Landing Page UMKM Kopi Kita</h3>
+					<p>Landing page interaktif untuk promosi produk kopi lokal.</p>
+				</div>
+				<div class="card">
+					<div class="portfolio-img">
+						<img src="Images/ChatGPT Image Jun 12, 2025, 07_12_24 PM.png" alt="Online Store Batik Nusantara" />
+					</div>
+					<h3>Online Store Batik Nusantara</h3>
+					<p>Toko online modern untuk brand batik Indonesia.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Services Section -->
+	<section class="facilitation" id="services">
+		<div class="container">
+			<h2>Our Services</h2>
+			<div class="facilities">
+				<div class="facility-item">
+					<div class="facility-icon">
+						<img src="Images/download (3).png" alt="Company Profile Website" />
+					</div>
+					<h3>Company Profile Website</h3>
+				</div>
+				<div class="facility-item">
+					<div class="facility-icon">
+						<img src="Images/download (1).png" alt="Landing Page" />
+					</div>
+					<h3>Landing Page</h3>
+				</div>
+				<div class="facility-item">
+					<div class="facility-icon">
+						<img src="Images/download (2).png" alt="Online Store" />
+					</div>
+					<h3>Online Store</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Section -->
+	<section class="message" id="contact">
+		<div class="container">
+			<h2>Contact Us</h2>
+			<div class="message-container form-container">
+				<div class="message-form">
+					<form id="contact-form" autocomplete="off">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="Your Name" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="Your Email" required>
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea id="message" name="message" placeholder="Tell us about your project..." required></textarea>
+						</div>
+						<button type="submit" class="submit-btn">Send Message</button>
+					</form>
+				</div>
+				<div class="message-preview response-box">
+					<h3>Preview</h3>
+					<div id="preview-content">
+						<div class="preview-item">
+							<span class="preview-label">Name:</span>
+							<span id="preview-name"></span>
+						</div>
+						<div class="preview-item">
+							<span class="preview-label">Email:</span>
+							<span id="preview-email"></span>
+						</div>
+						<div class="preview-item">
+							<span class="preview-label">Message:</span>
+							<span id="preview-message"></span>
+						</div>
+						<div class="preview-item current-time">
+							<span class="preview-label">Current Time:</span>
+							<span id="current-time"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<p class="footer-text">© 2025 Hazemaker Studio | 
+				<a href="mailto:info@hazemaker.com" style="color:#fff;text-decoration:underline;">Contact</a> | 
+				<a href="https://instagram.com/hazemakerstudio" target="_blank" style="color:#fff;text-decoration:underline;">Instagram</a>
+			</p>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
 </body>
 </html>
